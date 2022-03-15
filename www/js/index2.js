@@ -69,7 +69,7 @@ function onDeviceReady() {
                     console.log(dataInfo2);
 
                     //Condition si le joueur est diamond en SoloQ alors...
-                    if(dataInfo2[0].tier = "DIAMOND")
+                    if(dataInfo2[0].tier == "DIAMOND")
                     {
                         alert('··· − ·−−− ');
                         window.navigator.vibrate([50,50,50,200,50,200,200,200]) //Easter egg en morse qui dit STJ SnipeTonJoueur 
